@@ -1,0 +1,60 @@
+.showPOS {
+    background-color: rgb(196, 203, 212);
+    width: 450px;
+    height: 350px; 
+    margin-left: 5px;
+    margin-top: 350px;
+    resize: both;
+    overflow: hidden;
+    position: absolute;
+    border: 2px solid rgb(4, 135, 241);
+}
+.showPOS1 {
+    background-color: rgb(196, 203, 212);
+    width: 450px;
+    height: 550px; 
+    margin-left: 5px;
+    margin-top: 350px;
+    resize: both;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    border: 2px solid rgb(4, 135, 241);
+}
+.hide {
+    display: none;
+}
+.posHeaderTAB, li{
+    background-color:rgb(4, 135, 241);
+    display: inline;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+.posTabName {
+    font-weight: bold;
+}
+.posShiftHeader {
+    padding-left: 254px;
+}
+.row1{
+    display: inline;
+    padding-left: 3px;
+}
+.brand,.descriptor,.size {
+    background-color: rgb(196, 203, 212);
+    font-weight: 500;
+    font-size: 12px;
+    text-align: left;
+    padding-bottom: inherit;
+}
+.inputBrand {
+    width: 150px;
+}
+.inputDescriptor {
+    width: 200px;
+}
+.inputSize {
+    width: 75px;
+}
+

@@ -1,0 +1,58 @@
+.showFilter {
+    background-color: rgb(196, 203, 212);
+    width: 450px;
+    height: 150px; 
+    margin-left: 5px;
+    margin-top: 10px;
+    resize: both;
+    overflow: hidden;
+    position: absolute;
+    border: 2px solid rgb(4, 135, 241);
+}
+.hide {
+    display: none;
+}
+.filterHeaderTAB, li{
+    background-color:rgb(4, 135, 241);
+    display: inline;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+.shiftHeader {
+    padding-left: 300px;
+}
+.filterTabName {
+    font-weight: bold;
+}
+.filterAll {
+    margin-top: 30px;
+}
+.searchField {
+    padding-left: 3px;
+    font-weight: 500;
+}
+.condition {
+    display: inline;
+    padding-left: 45px;
+    font-weight: 500;
+}
+.searchFieldList {
+    margin-left: 3px;
+    display: inline;
+}
+.filterSelectList {
+    height: 21px;
+    font-weight: bold;
+}
+.conditionList {
+    display: inline;
+    margin: 3px;
+}
+.filterInput {
+    display: inline;
+}
+button:hover {
+    color: white;
+}
+
+

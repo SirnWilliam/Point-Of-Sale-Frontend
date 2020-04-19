@@ -1,0 +1,26 @@
+.showBrowser {
+    background-color: rgb(196, 203, 212);
+    width: 520px;
+    height: 330px; 
+    margin-left: 465px;
+    margin-top: 10px;
+    resize: both;
+    overflow: hidden;
+    position: absolute;
+    border: 2px solid rgb(4, 135, 241);
+}
+.hide {
+    display: none;
+}
+.browserHeaderTAB, li{
+    background-color:rgb(4, 135, 241);
+    display: inline;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+.browserShiftHeader {
+    padding-left: 278px;
+}
+.browserTabName {
+    font-weight: bold;
+}

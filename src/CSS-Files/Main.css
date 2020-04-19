@@ -1,0 +1,88 @@
+.showMain {
+    background-color: rgb(196, 203, 212);
+    width: 450px;
+    height: 170px; 
+    margin-left: 5px;
+    margin-top: 170px;
+    resize: both;
+    overflow: hidden;
+    position: absolute;
+    border: 2px solid rgb(4, 135, 241);
+}
+.hide {
+    display: none;
+}
+.mainHeaderTAB, li{
+    background-color:rgb(4, 135, 241);
+    display: inline;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+.mainTabName {
+    font-weight: bold;
+}
+.mainShiftHeader {
+    padding-left: 208px;
+}
+.showMain1 {
+    background-color: rgb(196, 203, 212);
+    width: 450px;
+    height: 340px; 
+    margin-left: 5px;
+    margin-top: 170px;
+    resize: both;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    border: 2px solid rgb(4, 135, 241);
+}
+.showMain2 {
+    background-color: rgb(196, 203, 212);
+    width: 450px;
+    height: 510px; 
+    margin-left: 5px;
+    margin-top: 170px;
+    resize: both;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    border: 2px solid rgb(4, 135, 241);
+}
+.row1{
+    display: inline;
+    padding-left: 3px;
+}
+.brand,.descriptor,.size {
+    background-color: rgb(196, 203, 212);
+    font-weight: 500;
+    font-size: 12px;
+    text-align: left;
+    padding-bottom: inherit;
+}
+.inputBrand {
+    width: 150px;
+}
+.inputDescriptor {
+    width: 200px;
+}
+.inputSize {
+    width: 75px;
+}
+.category,.family,.report,.nacs,.account,.section {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: inherit;
+}
+.inputCategory {
+    width: 101px;
+}
+.inputFamily,.inputReport,.inputNACS {
+    width: 50px;
+}
+.inputAccount,.inputSection {
+    width: 75px;
+}
+

@@ -1,0 +1,39 @@
+.showPrice {
+    background-color: rgb(196, 203, 212);
+    width: 520px;
+    height: 350px; 
+    margin-left: 465px;
+    margin-top: 350px;
+    resize: both;
+    overflow: hidden;
+    position: absolute;
+    border: 2px solid rgb(4, 135, 241);
+}
+.showPrice1 {
+    background-color: rgb(196, 203, 212);
+    width: 520px;
+    height: 550px; 
+    margin-left: 465px;
+    margin-top: 350px;
+    resize: both;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    border: 2px solid rgb(4, 135, 241);
+}
+.hide {
+    display: none;
+}
+.priceHeaderTAB, li{
+    background-color:rgb(4, 135, 241);
+    display: inline;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+.priceShiftHeader {
+    padding-left: 243px;
+}
+.priceTabName {
+    font-weight: bold;
+}
